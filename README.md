@@ -46,3 +46,28 @@ node server.js
 
 Step 7: Access you nodejs application UI from browser <br/>
 `http://localhost:3000`
+
+### Witch Docker-compose
+
+Step 1: start mongodb and mongo-express <br/>
+`docker-compose -f docker-compose.yaml up` <br/>
+
+Step 2: in mongo-express UI - create a new database "my-db" <br/>
+
+Step 3: in mongo-express UI - create a new collection "users" in the database "my-db" <br/>
+
+Step 4: start node server <br/>
+``` 
+npm install 
+node server.js
+``` 
+Step 5: access the nodejs application from browser
+`http://localhost:3000`
+
+
+### To build a docker image from the application
+`docker build -t my-app:1.0 . ` <br/>
+where my-app is the name of the image , 1.0 is the tag and "." location of the Dockerfile
+
+
+
