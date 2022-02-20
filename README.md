@@ -1,5 +1,5 @@
 
-# Developping with Docker
+# Developping using Docker-Kubernetes (Part1)
 
 
 ## What it does:
@@ -47,7 +47,7 @@ node server.js
 Step 7: Access you nodejs application UI from browser <br/>
 `http://localhost:3000`
 
-### Witch Docker-compose
+### With Docker-compose
 
 Step 1: start mongodb and mongo-express <br/>
 `docker-compose -f docker-compose.yaml up` <br/>
