@@ -69,5 +69,7 @@ Step 5: access the nodejs application from browser
 `docker build -t my-app:1.0 . ` <br/>
 where my-app is the name of the image , 1.0 is the tag and "." location of the Dockerfile
 
+### See Part 2 in:
+https://github.com/MouadAl/js-kubernetes-app
 
 
